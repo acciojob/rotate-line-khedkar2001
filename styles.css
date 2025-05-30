@@ -1,12 +1,18 @@
-body {
+/* Basic reset for consistency */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   height: 100vh;
   background-color: #ffffff;
   position: relative;
   overflow: hidden;
 }
 
+/* Rotating Line Styling */
 #line {
   width: 200px;
   height: 2px;
